@@ -9,7 +9,31 @@ body {
    
 }
 
-
+nav{
+    display: flex;
+    background-color: rgb(90, 72, 76);
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    margin-bottom: 5em;
+    margin-left: -0.6%;
+    margin-top: -1%;
+    width: 100vw;
+    height: 8vh;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: wid;
+        cursor: pointer;
+    }
+}
+.icon-link{
+    display: block;
+}
 .leads-to h1{
     text-align: center;
     font-size: 70px;
@@ -18,16 +42,17 @@ body {
 
 .leads-to p{
     text-align: center;
+    margin-top: -2%;
 }
 .book-name {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(fana-images/childhoood.jpg);
     padding-bottom: 9%;
-  
+    margin-top: -4%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     margin-left: -0.5%;
-    height: 30em;
+    height: 45em;
     font-size: 15px;
 
     color: white;
