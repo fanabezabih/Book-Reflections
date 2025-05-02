@@ -2,149 +2,182 @@
     font-family: poppins;
     src: url(Poppins-SemiBold.ttf);
 }
-body{
+
+body {
     overflow-x: hidden;
- font-family: poppins;
+    font-family: poppins;
 }
 
 
 
 
-.book-name{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.7
-    ) ),url(fana-images/childhoood.jpg);
+.book-name {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(fana-images/childhoood.jpg);
     padding-bottom: 9%;
 
     background-repeat: no-repeat;
     background-size: cover;
-    width:100vw;
-      margin-left: -0.5%;
+    width: 100vw;
+    margin-left: -0.5%;
     height: 44em;
     font-size: 15px;
 
     color: white;
-  
+
     text-align: center;
 }
-.book-name h1{
+
+.book-name h1 {
     color: red;
     padding-top: 15%;
-    font-size: 60px;
+    font-size: 80px;
 }
-.descriptions h4{
+
+.descriptions h4 {
     font-size: 20px;
     padding-top: 3%;
     padding-left: 13%;
     color: red;
 }
-.descriptions p{
+
+.descriptions p {
     width: 36%;
-   text-align: justify;
+    text-align: justify;
     font-size: 15px;
     color: rgb(59, 59, 59);
-    padding-top:3%;
+    padding-top: 3%;
     margin-left: 3%;
     padding-left: 2%;
 }
 
-.resonate{
- 
-  margin-left: 6%;
-   
-}     
-      
-     
- .resonate h2{
+.resonate {
+
+    margin-left: 6%;
+
+}
+
+
+.resonate h2 {
     color: red;
     margin-left: 37%;
-  
+
     padding-top: 4%;
     font-size: 40px;
     width: 30%;
     text-align: justify;
- }   
+}
 
-.resonate p{
-width: 76%;
-text-align: justify;
-color: rgb(59, 59, 59);
-padding-left: 7.8%;
-padding-bottom: 10%;
-padding-top:3%;
-font-size: 15px;
-} 
-.reflection{
+.resonate p {
+    width: 76%;
+    text-align: justify;
+    color: rgb(59, 59, 59);
+    padding-left: 7.8%;
+    padding-bottom: 10%;
+
+    font-size: 15px;
+}
+
+.reflection {
     display: flex;
-    gap:180px;
+    gap: 180px;
     box-shadow: 1px 1px 3px black;
     width: 85em;
     margin-left: 10%;
-    
+    transition: 0.5s ease-out;
+
 }
-.reflection img{
+
+.reflection:hover {
+    transform: scale(1, 1.04);
+}
+
+.reflection img {
     width: 30em;
     height: 27em;
     padding-top: 10%;
+    transition: 0.5s ease-out;
 }
-.trevor p{
+
+.reflection img:hover {
+    transform: scale(1, 1.1);
+}
+
+.trevor p {
     width: 80%;
     padding-left: 19%;
-    a{
 
-    
-    text-decoration: none;
+    a {
+
+
+        text-decoration: none;
     }
 }
-nav{
-    margin-top: -1%;
-    margin-left: 18%;
+
+nav {
     display: flex;
-  
-    position: sticky;
+    background-color: rgb(199, 193, 163);
+    position: fixed;
     top: 0%;
     z-index: 1000;
-  
+    margin-left: -1%;
     width: 100vw;
     height: 7vh;
     gap: 5%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    a{
+
+    a {
         text-decoration: none;
         color: black;
         font-family: wid;
     }
 
 }
-.icon-link{
+
+.icon-link {
     display: block;
 }
-.form{
+
+.form {
     text-align: center;
     background-color: rgb(1, 1, 49);
     width: 800px;
     color: white;
     margin-left: 28%;
-    height: 200px;
-    padding-top: 3%;
+    height: 300px;
+    margin-top: -4%;
+    padding-top: 2%;
 }
-.form button{
+
+.form button {
     cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
 }
-.footer{
+
+.footer {
     background-color: rgb(1, 1, 24);
-    color:  rgb(95, 94, 94);
-    height: 170px;
-  padding-left: 43%;
-   width:120vw;
-   margin-left: -0.5%;
-   margin-bottom: -0.5%;
+    color: rgb(95, 94, 94);
+    height: 80px;
+    padding-left: 43%;
+    width: 120vw;
+    margin-left: -0.5%;
+    margin-bottom: -0.5%;
 
 }
-.footer p{
+
+.footer p {
+    margin-left: -3%;
+    padding-top: 2%;
+}
+
+#comment {
+    height: 50px;
+    width: 500px;
     
-    padding-top: 6%;
 }
 
 
@@ -163,14 +196,119 @@ nav{
 
 
 
-
-@media only screen and (max-width: 1280){
-    .reflection{
-        display: flex;
-        gap:0%;
-        padding: -6%;
-        /* width: 85em; */
-     
-        
+@media only screen and (max-width: 1024px) {
+    .book-name {
+        width: 120vw;
+        margin-left: -2%;
     }
+    
+
+     
+
+    .reflection {
+   
+     gap:29px;
+
+        width: 97%;
+        margin-left: 1%;
+
+
+
+
+    }
+
+
+    .reflection img {
+        width: 23em;
+        height: 20em;
+        padding-top: 30%;
+
+    }
+
+    .reflection p {
+        width: 50%;
+    }
+
+
+    .form {
+        margin-left: 13%;
+    }
+
+    .footer {
+        width: 60vw;
+        margin-left: -1%;
+    }
+
+    .footer p {
+
+        padding-top: 6%;
+    }
+
+    .resonate h2 {
+        color: red;
+
+
+        padding-top: 4%;
+        font-size: 40px;
+        width: 60%;
+        text-align: justify;
+    }
+    nav {
+    
+
+        margin-top: -1%;
+        padding: 1%;
+    }
+}
+@media only screen and (max-width: 430px){
+    body{
+       overflow-x: hidden;
+    }
+    nav{
+
+    }
+    .descriptions h4{
+        font-size: 14px;
+        margin-left: -4%;
+    }
+    .book-name{
+        width: 100vw;
+    }
+    .reflection{
+        flex-direction: column;
+    }
+    .reflection p{
+        width: 90%;
+    }
+    .reflection img{
+        padding-top: 15%;
+        padding-left: 4%;
+    }
+    .resonate{
+        width: 130%;
+    }
+    .resonate h2{
+    margin-left: 1%;
+    width:130%;
+    }
+    .resonate p{
+        margin-left: -12%;
+    }
+    .form{
+        font-size: 10px;
+        width: 350px;
+        height: 200px;
+        margin-left: 4%;
+    }
+    #comment{
+        height: 50px;
+        width: 300px;
+    }
+
+    .footer p {
+        margin-left: -60%;
+        font-size: 14px;
+        padding-top: 9%;
+    }
+    
 }
