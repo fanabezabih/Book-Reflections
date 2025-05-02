@@ -6,20 +6,28 @@
 body {
     overflow-x: hidden;
     font-family: poppins;
+   
 }
 
 
+.leads-to h1{
+    text-align: center;
+    font-size: 70px;
+    color: red;
+}
 
-
+.leads-to p{
+    text-align: center;
+}
 .book-name {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(fana-images/childhoood.jpg);
     padding-bottom: 9%;
-
+  
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     margin-left: -0.5%;
-    height: 44em;
+    height: 30em;
     font-size: 15px;
 
     color: white;
@@ -30,7 +38,7 @@ body {
 .book-name h1 {
     color: red;
     padding-top: 15%;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .descriptions h4 {
@@ -113,31 +121,6 @@ body {
     }
 }
 
-nav {
-    display: flex;
-    background-color: rgb(199, 193, 163);
-    position: fixed;
-    top: 0%;
-    z-index: 1000;
-    margin-left: -1%;
-    width: 100vw;
-    height: 7vh;
-    gap: 5%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    a {
-        text-decoration: none;
-        color: black;
-        font-family: wid;
-    }
-
-}
-
-.icon-link {
-    display: block;
-}
 
 .form {
     text-align: center;
@@ -179,19 +162,33 @@ nav {
     width: 500px;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.our-club {
+    position: absolute;
+    right: 0;
+    top: 150%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+.our-club img{
+    position: relative;
+    right: -11.5em;
+    width: 10vw;
+    height: 20vh;
+    border-radius: 100px;
+}
+.our-club button{
+    position: relative;
+    right: 1.9em;
+    padding: 1em 3.5em;
+    border-radius: 45px;
+    border: 1px solid rgb(204, 185, 110);
+    background-color: rgb(204, 185, 110);
+    font-family: wid;
+    font-size: 100%;
+    top: 3em;
+}
 
 
 
@@ -253,12 +250,7 @@ nav {
         width: 60%;
         text-align: justify;
     }
-    nav {
     
-
-        margin-top: -1%;
-        padding: 1%;
-    }
 }
 @media only screen and (max-width: 430px){
     body{
