@@ -216,12 +216,260 @@ nav{
 }
 
 
+nav{
+    display: flex;
+    background-color: rgb(90, 72, 76);
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    margin-bottom: 5em;
+    margin-left: -0.6%;
+    margin-top: -1%;
+    width: 100vw;
+    height: 8vh;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: wid;
+        cursor: pointer;
+    }
+}
+.icon-link{
+    display: block;
+}
+.leads-to h1{
+    text-align: center;
+    font-size: 70px;
+    color: red;
+}
+
+.leads-to p{
+    text-align: center;
+    margin-top: -2%;
+}
+.book-name {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(fana-images/childhoood.jpg);
+    padding-bottom: 9%;
+    margin-top: -4%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    margin-left: -0.5%;
+    height: 45em;
+    font-size: 15px;
+
+    color: white;
+
+    text-align: center;
+}
+
+.book-name h1 {
+    color: red;
+    padding-top: 15%;
+    font-size: 60px;
+}
+
+.descriptions h4 {
+    font-size: 20px;
+    padding-top: 3%;
+    padding-left: 13%;
+    color: red;
+}
+
+.descriptions p {
+    width: 36%;
+    text-align: justify;
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+    padding-top: 3%;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+
+.resonate {
+
+    margin-left: 6%;
+
+}
+
+
+.resonate h2 {
+    color: red;
+    margin-left: 37%;
+
+    padding-top: 4%;
+    font-size: 40px;
+    width: 30%;
+    text-align: justify;
+}
+
+.resonate p {
+    width: 76%;
+    text-align: justify;
+    color: rgb(59, 59, 59);
+    padding-left: 7.8%;
+    padding-bottom: 10%;
+
+    font-size: 15px;
+}
+
+.reflection {
+    display: flex;
+    gap: 180px;
+    box-shadow: 1px 1px 3px black;
+    width: 85em;
+    margin-left: 10%;
+    transition: 0.5s ease-out;
+
+}
+
+.reflection:hover {
+    transform: scale(1, 1.04);
+}
+
+.reflection img {
+    width: 30em;
+    height: 27em;
+    padding-top: 10%;
+    transition: 0.5s ease-out;
+}
+
+.reflection img:hover {
+    transform: scale(1, 1.1);
+}
+
+.trevor p {
+    width: 80%;
+    padding-left: 19%;
+
+    a {
+
+
+        text-decoration: none;
+    }
+}
+
+
+.form {
+    text-align: center;
+    background-color: rgb(1, 1, 49);
+    width: 800px;
+    color: white;
+    margin-left: 28%;
+    height: 300px;
+    margin-top: -4%;
+    padding-top: 2%;
+}
+
+.form button {
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: rgb(1, 1, 24);
+    color: rgb(95, 94, 94);
+    height: 80px;
+    padding-left: 43%;
+    width: 120vw;
+    margin-left: -0.5%;
+    margin-bottom: -0.5%;
+
+}
+
+.footer p {
+    margin-left: -3%;
+    padding-top: 2%;
+}
+
+#comment {
+    height: 50px;
+    width: 500px;
+    
+}
+.our-club {
+    position: absolute;
+    right: 0;
+    top: 150%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+.our-club img{
+    position: relative;
+    right: -11.5em;
+    width: 10vw;
+    height: 20vh;
+    border-radius: 100px;
+}
+.our-club button{
+    position: relative;
+    right: 1.9em;
+    padding: 1em 3.5em;
+    border-radius: 45px;
+    border: 1px solid rgb(204, 185, 110);
+    background-color: rgb(204, 185, 110);
+    font-family: wid;
+    font-size: 100%;
+    top: 3em;
+}
+@media only screen and(max-width: 1440px) {
+    .book-name {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(fana-images/childhoood.jpg);
+        padding-bottom: 9%;
+        margin-top: -15%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        margin-left: -0.5%;
+        height: 45em;
+        font-size: 15px;
+    
+        color: white;
+    
+        text-align: center;
+    }
+
+    .footer {
+        background-color: rgb(1, 1, 24);
+        color: rgb(95, 94, 94);
+        height: 80px;
+        padding-left: 43%;
+        width: 120vw;
+        margin-left: -29%;
+        margin-bottom: -0.5%;
+    
+    }
+
+
+
+}
+
+
 
 
 @media only screen and (max-width: 1024px) {
+   .book-name h1{
+    padding-top: 20%;
+   }
+   
+   
+   
+    .nav{
+ margin-left: -16%;
+    }
     .book-name {
-        width: 120vw;
+        width: 100vw;
         margin-left: -2%;
+        margin-top: -13%;
     }
     
 
@@ -253,7 +501,7 @@ nav{
 
 
     .form {
-        margin-left: 13%;
+        margin-left: 10%;
     }
 
     .footer {
@@ -262,18 +510,25 @@ nav{
     }
 
     .footer p {
-
+margin-left: -27%;
         padding-top: 6%;
     }
+ .resonate p{
+    width:90%;
 
+    margin-left: -9%;
+ }
     .resonate h2 {
         color: red;
 
-
+ margin-left: 26%;
         padding-top: 4%;
         font-size: 40px;
-        width: 60%;
+        width: 100%;
         text-align: justify;
+    }
+    .descriptions h4{
+        margin-left: -9%;
     }
     
 }
@@ -282,7 +537,9 @@ nav{
        overflow-x: hidden;
     }
     nav{
-
+        margin-top: -3%;
+        position: sticky;
+margin-left: -1.9%;
     }
     .descriptions h4{
         font-size: 14px;
@@ -290,6 +547,7 @@ nav{
     }
     .book-name{
         width: 100vw;
+        margin-top: -19%;
     }
     .reflection{
         flex-direction: column;
@@ -315,7 +573,7 @@ nav{
         font-size: 10px;
         width: 350px;
         height: 200px;
-        margin-left: 4%;
+        margin-left: 9%;
     }
     #comment{
         height: 50px;
@@ -328,4 +586,207 @@ nav{
         padding-top: 9%;
     }
     
+}
+@media screen and (min-width:300px) and (max-width: 429px) {
+
+    @font-face {
+        font-family: poppins;
+        src: url(Poppins-SemiBold.ttf);
+    }
+    
+    body {
+        overflow-x: hidden;
+        font-family: poppins;
+       
+    }
+    
+    nav{
+        display: flex;
+        background-color: rgb(90, 72, 76);
+        position: sticky;
+        top: 0%;
+        z-index: 1000;
+        margin-bottom: 5em;
+        margin-left: -3%;
+        margin-top: -3%;
+        width: 100vw;
+        height: 8vh;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-family: wid;
+            cursor: pointer;
+        }
+    }
+    .icon-link{
+        display: block;
+    }
+    .leads-to h1{
+        text-align: center;
+        font-size: 70px;
+        color: red;
+    }
+    
+    .leads-to p{
+        text-align: center;
+        margin-top: -2%;
+    }
+    .book-name {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(fana-images/childhoood.jpg);
+        padding-bottom: 9%;
+        margin-top: -22%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        margin-left: -2.5%;
+        height: 45em;
+        font-size: 15px;
+    
+        color: white;
+    
+        text-align: center;
+    }
+    
+    .book-name h1 {
+        color: red;
+        padding-top: 15%;
+        font-size: 60px;
+    }
+    
+    .descriptions h4 {
+        font-size: 13px;
+        padding-top: 3%;
+        padding-left: 3%;
+        color: red;
+        width:104%;
+    }
+    
+    .descriptions p {
+        width: 36%;
+        text-align: justify;
+        font-size: 15px;
+        color: rgb(59, 59, 59);
+        padding-top: 3%;
+        margin-left: 3%;
+        padding-left: 2%;
+    }
+    
+    .resonate {
+    
+        margin-left: 2%;
+    
+    }
+    
+    
+    .resonate h2 {
+        color: red;
+        margin-left: 8%;
+    
+        padding-top: 4%;
+        font-size: 25px;
+        width: 80%;
+        text-align: justify;
+    }
+    
+    .resonate p {
+        width: 70%;
+        text-align: justify;
+        color: rgb(59, 59, 59);
+        padding-left: 14%;
+        padding-bottom: 10%;
+    
+        font-size: 15px;
+    }
+    
+    .reflection {
+        display: flex;
+        gap: 180px;
+        box-shadow: 1px 1px 3px black;
+        width: 25em;
+        margin-left: -1%;
+        transition: 0.5s ease-out;
+    
+    }
+    
+    .reflection:hover {
+        transform: scale(1, 1.04);
+    }
+    
+    .reflection img {
+        width: 22em;
+        height: 25em;
+        margin-top: -18%;
+        margin-left: -2%;
+        transition: 0.5s ease-out;
+    }
+    
+    .reflection img:hover {
+        transform: scale(1, 1.1);
+    }
+    
+    .trevor p {
+        width: 80%;
+        padding-left: 19%;
+    
+        a {
+    
+    
+            text-decoration: none;
+        }
+    }
+    
+    
+    .form {
+        text-align: center;
+        background-color: rgb(1, 1, 49);
+        width: 300px;
+        color: white;
+        margin-left: 6%;
+        height: 200px;
+        margin-top: -4%;
+        padding-top: 2%;
+    }
+    
+    .form button {
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    
+    .footer {
+        background-color: rgb(1, 1, 24);
+        color: rgb(95, 94, 94);
+        height: 50px;
+        padding-left: 36%;
+        width: 63vw;
+        margin-left: -0.5%;
+        margin-bottom: -0.5%;
+    
+    }
+    
+    .footer p {
+        margin-left: -30%;
+        padding-top: 8%;
+        font-size: 10px;
+    }
+    
+    #comment {
+        height: 50px;
+        width: 200px;
+        
+    }
+    
+    .reflection p{
+        width:80%;
+    }
+
+
+
+
 }
